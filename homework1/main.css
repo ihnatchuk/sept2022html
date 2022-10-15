@@ -1,0 +1,50 @@
+/*      start of simpsonFamily section   */
+.simpsonFamily{
+    text-align: center;
+    background-color: azure;
+}
+h1{
+    background-color: yellow;
+    color: blue;
+    line-height: 2;
+}
+.simpsonFamily img{
+    height: 500px;
+    transition: transform .4s;
+}
+.simpsonFamily img:hover{
+    transform: scale(1.1,1.1);
+}
+.simpsonFamily>p{
+    background-color: #ffffc6;
+    color: #3d3d80;
+    padding: 10px 20%;
+}
+/*      end of simpsonFamily section   */
+
+/*      start of cardSimpson section   */
+.cardSimpson{
+    background-color: azure;
+    text-align: center;
+}
+h2{
+    background-color: yellow;
+    color: blue;
+    line-height: 2;
+}
+.cardSimpson p, ul{
+    background-color: #ffffc6;
+    color: #3d3d80;
+    padding: 10px 20%;
+}
+.cardSimpson ul{
+    text-align: start;
+    padding: 10px 0px 10px 45%;
+}
+.cardSimpson img{
+    transition: transform .4s;
+}
+.cardSimpson img:hover{
+    transform: scale(1.1,1.1);
+}
+/*      end of cardSimpson section   */
