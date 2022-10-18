@@ -1,3 +1,10 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: silver;
+}
 .cards__row{
     display: flex;
     justify-content: center;
@@ -11,10 +18,17 @@
     flex-direction: column;
     align-items: center;
     padding: 45px 25px 30px;
-    border: 1px solid black;
     text-align: center;
+    box-shadow: 2px 2px 2px 2px silver;
 }
 .button{
-    padding: 15px 65px;
-    border: 1px solid black;
+    padding: 15px 35px;
+    background-color: #56c3b7;
+    color:white;
+}
+h2{
+    color: #be7038;
+}
+p{
+    color:silver;
 }
