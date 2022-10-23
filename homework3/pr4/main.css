@@ -1,0 +1,10 @@
+li{
+    color:red;
+    background-color: #56c3b7;
+}
+.ul1>li{
+    background-color: #222acd;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 900;
+}

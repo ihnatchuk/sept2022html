@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    background-color: #ffffc6;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    position:relative;
+}
+.box{
+     width: 100px;
+     height: 100px;
+     background-color: #0b6b35;
+     position:relative;
+ }
+
+.box:nth-child(2n){
+    background-color: #56c3b7;
+    bottom:-50px;
+}
