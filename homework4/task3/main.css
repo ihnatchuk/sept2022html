@@ -65,7 +65,6 @@ aside>div{
 }
 .wrap56{
     display: flex;
-    margin: 10px 0;
     background-color: #98dde6;
 }
 .block5-extended{
@@ -178,7 +177,7 @@ footer{
         height: 150px;
     }
     .block4 > div {
-        height: 200px;
+        height: 125px;
         width: 49%;
     }
     .wrap56 {
@@ -195,6 +194,9 @@ footer{
     }
     .block6-left {
         width: 50%;
+    }
+    .block6-left>div{
+        padding: 15px 0;
     }
     .block6-left>div:last-child{
         display: none;
@@ -218,7 +220,7 @@ footer{
         height: 100px;
     }
     .block4 > div {
-        height: 200px;
+        height: 100px;
         width: 49%;
     }
     .wrap56 {
@@ -236,7 +238,10 @@ footer{
     .block5-right{
         padding-top: 0;
     }
-    .block5-left>div:nth-child(n+4), .block5-right>div:nth-child(n+4){
+    .block5-left>div, .block5-right>div{
+        padding: 10px 20px;
+    }
+    .block5-left>div:nth-child(n+4), .block5-right>div:nth-child(n+3){
         display: none;
     }
     .block6 {
@@ -246,11 +251,14 @@ footer{
     .block6-left {
         width: 100%;
     }
+    .block6-left>div{
+        padding: 15px 0;
+    }
     .block6-left>div:last-child{
         display: none;
     }
     .block6-right{
-        height: 250px;
+        height: 160px;
         width: 100%;
         padding-top: 0;
         display: block;
