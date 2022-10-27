@@ -49,14 +49,14 @@ aside>div{
 }
 .block4{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     background-color: #abefe3;
 }
 .block4>div{
     height: 100px;
-    width: 23%;
+    width: 24%;
     background-color: #08bdd4;
     display: flex;
     justify-content: center;
